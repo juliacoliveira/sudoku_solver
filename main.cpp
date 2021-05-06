@@ -18,7 +18,7 @@ using namespace std;
 void print_grid(int grid[DIM][DIM])
 {
    ofstream mySudoku;
-    mySudoku.open("C:/Users/julia/Downloads/crotes/sudoku_solver/grid_sudoku.txt", ios::app);
+    mySudoku.open("grid_sudoku.txt", ios::app);
 //    mySudoku.open("C:./grid_sudoku.txt", ios::app);
    //If the file is not open, then get out
   if (!mySudoku.is_open())
@@ -143,7 +143,7 @@ int main()
     int grid[DIM][DIM];
 
     ifstream mySudoku;
-   mySudoku.open("C:/Users/julia/Downloads/crotes/sudoku_solver/grid_sudoku.txt");
+   mySudoku.open("grid_sudoku.txt");
 //       mySudoku.open("grid_sudoku.txt");
 
    //If the file is not open, then get out
